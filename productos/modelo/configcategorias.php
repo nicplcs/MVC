@@ -1,0 +1,12 @@
+
+<?php
+
+
+$BASE_URL_CATEGORIAS = "http://localhost:8080/categorias";
+
+// Endpoints CRUD
+$URL_GET_CATEGORIAS   = $BASE_URL_CATEGORIAS;       
+$URL_POST_CATEGORIA   = $BASE_URL_CATEGORIAS;       
+$URL_PUT_CATEGORIA    = $BASE_URL_CATEGORIAS . "/"; 
+$URL_DELETE_CATEGORIA = $BASE_URL_CATEGORIAS . "/";
+?>
