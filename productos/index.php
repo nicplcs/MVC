@@ -1,7 +1,5 @@
 <?php
-
-require_once __DIR__ . "/productos/controlador/categoriacontroller.php";
+require_once __DIR__ . "/controlador/categoriacontroller.php";
 
 $controller = new CategoriaController();
-
-$controller->manejarPeticion(); 
+$controller->manejarPeticion();
